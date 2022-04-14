@@ -1,0 +1,50 @@
+@media screen and (min-width: 1100px){
+    .texte{
+        margin-right: 60%;
+    }
+
+    .contenu{
+        margin: 15px 65px 10px 150px;
+    }
+
+    .ligne{
+        width: 50px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .ligne > div {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .ligne > div > a{
+        margin: 15px 0 15px 0;
+    }
+
+    h1{
+        font-size: 28pt;
+        padding: 20px 30px 20px 30px;
+    }
+
+    h2{
+        font-size: 56pt;
+    }
+
+    .nextp {
+        width: 150px;
+    }
+
+    .suivant > p{
+        height: 50px;
+        background-color: white;
+        padding: 0 35px 0 10px;
+    }
+
+    .fond > img{
+        width: 110vw;
+        transform: translateX(14vw) translateY(18vw);
+    }
+}
